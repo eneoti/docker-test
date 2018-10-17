@@ -1,0 +1,26 @@
+{
+  "name": "docker-test",
+  "version": "1.0.8",
+  "description": "docker test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index"
+  },
+  "repository": "https://github.com/eneoti/docker-test.git",
+  "author": "Thomas Phan",
+  "license": "MIT",
+  "dependencies": {
+    "exec": "^0.2.1",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {},
+  "files": [
+    "CONTRIBUTING.md",
+    "lib",
+    "test",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
